@@ -62,10 +62,10 @@ div.bubble {
     background-color: #E7E6DC;
     border-radius: 25px;
     padding: 1em;
-    margin: 2em;
+    margin-top: 1em;
     box-shadow: 2px 5px 2px #888888;
-    width: 40vw;
-    min-width: 700px;
+    width: 48vw;
+    min-width: 400px;
 }
 
 img {
@@ -76,7 +76,7 @@ img {
 }
 
 div.photo {
-    margin-top: 45%;
+    margin-top: 50%;
 }
 
 
