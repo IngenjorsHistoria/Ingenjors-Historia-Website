@@ -38,18 +38,28 @@ nav a {
     text-align: center;
     padding: 5px;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 a.active {
     background-color: #ACA5A7;
-    border-radius: 25px;
     margin-bottom: -25px;
 }
+
+nav a:hover {
+    color: #222222;
+    background-color: #AF4E75;
+    margin-bottom: -25px;
+}
+
 
 div.contentContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #ACA5A7;
+    position: relative;
+    z-index: 1;
 }
 
 div.bubble {
@@ -61,15 +71,17 @@ div.bubble {
     max-width: 700px;
 }
 
-div.photo {
-
-}
-
 img {
     width: 100%;
     height: auto;
     border-radius: 25px;
+    margin-top: -50%;
 }
+
+div.photo {
+    margin-top: 45%;
+}
+
 
 h1 {
     font-family: 'Jacques Francois Shadow', serif;
