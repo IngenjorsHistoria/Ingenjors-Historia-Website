@@ -1,46 +1,15 @@
-
-body {
-    background-color: rgb(230, 227, 197);
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #cd066d;
-    background-color: #490b64;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-/* Change the color of links on hover */  
-.topnav a:hover {
-    background-color: #5a0b64;
-    color: #cd066d;
-}
-
-.topnav a.active {
-    background-color: #8e8e8e;
-    color: #d54991;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-.textgrid {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Jacques+Francois+Shadow&family=Life+Savers&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Change the color of links on hover */  
+.topnav a:hover {
+    background-color: #5a0b64;
+    color: #cd066d;
 }
 
 body {
