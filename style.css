@@ -6,12 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Change the color of links on hover */  
-.topnav a:hover {
-    background-color: #5a0b64;
-    color: #cd066d;
-}
-
 body {
     background-color: #ACA5A7;
     font-family: 'Life Savers', serif;
